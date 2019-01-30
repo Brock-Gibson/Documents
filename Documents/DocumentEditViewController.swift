@@ -51,15 +51,19 @@ class DocumentEditViewController: UIViewController {
         
         if let dir = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first {
             
-            if let existingDocument = existingDocument {
-                let oldFileURL = dir.appendingPathComponent(existingDocument.title)
-                do {
-                    try FileManager.default.removeItem(at: oldFileURL)
-                } catch {
-                    print("couldn't overwrite old file.")
-                    return
-                }
-            }
+//            Missed the part in the video about creating a new file when the title changes.
+//            These lines of code serve to "overwrite" in a sense the file and prevent new files from being                 created,
+//            except expliciting using the add button.
+            
+//            if let existingDocument = existingDocument {
+//                let oldFileURL = dir.appendingPathComponent(existingDocument.title)
+//                do {
+//                    try FileManager.default.removeItem(at: oldFileURL)
+//                } catch {
+//                    print("couldn't overwrite old file.")
+//                    return
+//                }
+//            }
             let fileURL = dir.appendingPathComponent(fileTitle)
             do {
                 try fileContent!.write(to: fileURL, atomically: false, encoding: .utf8)
