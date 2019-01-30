@@ -13,6 +13,9 @@
 		5BD56AE521FE8FBA00B078EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BD56AE421FE8FBA00B078EA /* Assets.xcassets */; };
 		5BD56AE821FE8FBA00B078EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BD56AE621FE8FBA00B078EA /* LaunchScreen.storyboard */; };
 		5BD56AF321FE8FBA00B078EA /* DocumentsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD56AF221FE8FBA00B078EA /* DocumentsUITests.swift */; };
+		5BD56AFE21FF659300B078EA /* DocumentEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD56AFD21FF659300B078EA /* DocumentEditViewController.swift */; };
+		5BD56B0021FF65B700B078EA /* DocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD56AFF21FF65B700B078EA /* DocumentViewController.swift */; };
+		5BD56B0221FF65E500B078EA /* DocumentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD56B0121FF65E500B078EA /* DocumentCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		5BD56AEE21FE8FBA00B078EA /* DocumentsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DocumentsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BD56AF221FE8FBA00B078EA /* DocumentsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsUITests.swift; sourceTree = "<group>"; };
 		5BD56AF421FE8FBA00B078EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BD56AFD21FF659300B078EA /* DocumentEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentEditViewController.swift; sourceTree = "<group>"; };
+		5BD56AFF21FF65B700B078EA /* DocumentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentViewController.swift; sourceTree = "<group>"; };
+		5BD56B0121FF65E500B078EA /* DocumentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,9 @@
 				5BD56AE621FE8FBA00B078EA /* LaunchScreen.storyboard */,
 				5BD56AE921FE8FBA00B078EA /* Info.plist */,
 				5BD56AE121FE8FBA00B078EA /* Documents.xcdatamodeld */,
+				5BD56AFD21FF659300B078EA /* DocumentEditViewController.swift */,
+				5BD56AFF21FF65B700B078EA /* DocumentViewController.swift */,
+				5BD56B0121FF65E500B078EA /* DocumentCell.swift */,
 			);
 			path = Documents;
 			sourceTree = "<group>";
@@ -198,6 +207,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BD56AE321FE8FBA00B078EA /* Documents.xcdatamodeld in Sources */,
+				5BD56B0021FF65B700B078EA /* DocumentViewController.swift in Sources */,
+				5BD56AFE21FF659300B078EA /* DocumentEditViewController.swift in Sources */,
+				5BD56B0221FF65E500B078EA /* DocumentCell.swift in Sources */,
 				5BD56ADB21FE8FBA00B078EA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
