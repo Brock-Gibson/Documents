@@ -24,7 +24,7 @@ class DocumentEditViewController: UIViewController {
         if existingDocument?.title == nil {
             return
         }
-        
+        titleBar.title = existingDocument?.title
         titleTextField.text = existingDocument?.title
         let filename = existingDocument!.title
         if let dir = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first {
